@@ -13,8 +13,9 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-# Node Mods
+# NPM
 node_modules
+.npmrc
 
 # Ignore local git config
 .gitconfig.local
