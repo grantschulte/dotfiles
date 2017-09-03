@@ -1,0 +1,23 @@
+Bundle 'gmarik/vundle'
+
+" Snipmate
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'garbas/vim-snipmate'
+
+" Javascript Support
+Bundle 'isRuslan/vim-es6'
+Bundle 'elzr/vim-json'
+Bundle 'pangloss/vim-javascript'
+Bundle 'mxw/vim-jsx'
+Bundle 'kchmck/vim-coffee-script'
+
+" Elixir/Rust Support
+Bundle 'elixir-lang/vim-elixir'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'rust-lang/rust.vim'
+Bundle 'lambdatoast/elm.vim'
+
+" Themes
+Bundle 'morhetz/gruvbox'
+Bundle 'whatyouhide/vim-gotham'
