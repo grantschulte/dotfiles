@@ -1,4 +1,7 @@
+# Dotfiles
+alias dots="$EDITOR $HOME/dotfiles"
+
+# Zshell
 alias zshconfig="$EDITOR $HOME/.zshrc"
 alias ohmyzsh="$EDITOR $HOME/.oh-my-zsh"
-alias dots="$EDITOR $HOME/dotfiles"
 alias sz="source $HOME/.zshrc"
