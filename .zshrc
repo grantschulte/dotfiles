@@ -53,9 +53,9 @@ export SSH_EDITOR=vim
 export CODE_EDITOR=atom
 
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR=SSH_EDITOR
+  export EDITOR=$SSH_EDITOR
 else
-  export EDITOR=CODE_EDITOR
+  export EDITOR=$CODE_EDITOR
 fi
 
 # SSH
@@ -63,6 +63,12 @@ fi
 #
 
 export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
+
+# Functions
+#
+#
+
+. $HOME/.functions
 
 # Aliases
 #
