@@ -1,3 +1,40 @@
 # Aliases
+#
+#
 
 alias weather='curl -s http://wttr.in/nyc'
+
+# Dotfiles
+#
+#
+
+alias dots="$EDITOR $HOME/dotfiles"
+
+# Zshell
+#
+#
+
+alias zshconfig="$EDITOR $HOME/.zshrc"
+alias ohmyzsh="$EDITOR $HOME/.oh-my-zsh"
+alias sz="source $HOME/.zshrc"
+
+# Project Specific
+#
+#
+
+PROJECTS_PATH="$HOME/Projects"
+SUNDANCE=sundance-now-web
+SHUDDER=shudder-web
+WEB_MODS=web-modules
+
+alias d-sundance="cd $PROJECTS_PATH/$SUNDANCE"
+alias d-shudder="cd $PROJECTS_PATH/$SHUDDER"
+alias d-webmods="cd $PROJECTS_PATH/$WEB_MODS"
+alias sundance="$EDITOR $PROJECTS_PATH/$SUNDANCE"
+alias shudder="$EDITOR $PROJECTS_PATH/$SHUDDER"
+
+# ngrok
+#
+#
+
+alias tunnel=ngrok_tunnel

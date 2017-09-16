@@ -1,0 +1,11 @@
+# Functions
+#
+#
+
+# ngrok tunnel helper
+#
+#
+
+ngrok_tunnel() {
+	$HOME/ngrok http $1;
+}
