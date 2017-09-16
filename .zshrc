@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/grant/.oh-my-zsh
@@ -96,5 +96,13 @@ export NVM_DIR="$HOME/.nvm"
 
 ## Gotham Shell Colors
 
-GOTHAM_SHELL="$HOME/dotfiles/themes/gotham.sh"
-[[ -s $GOTHAM_SHELL ]] && source $GOTHAM_SHELL
+# GOTHAM_SHELL="$HOME/dotfiles/themes/gotham.sh"
+# [[ -s $GOTHAM_SHELL ]] && source $GOTHAM_SHELL
+
+# AWS CLI
+
+export PATH=~/Library/Python/3.6/bin/:$PATH
+
+# Aliases
+
+source $HOME/.alias
