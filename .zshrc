@@ -22,7 +22,11 @@ eval "$(rbenv init -)"
 #
 #
 
-ZSH_THEME="nanotech"
+if [ -s "$ZSH/themes/gizmo.zsh-theme" ] ; then
+  ZSH_THEME="gizmo"
+else
+  ZSH_THEME="nanotech"
+fi
 
 # Zshell Plugins
 #
@@ -62,7 +66,7 @@ fi
 #
 #
 
-export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
+export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 
 # Functions
 #
