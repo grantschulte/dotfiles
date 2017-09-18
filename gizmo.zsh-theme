@@ -11,8 +11,14 @@ fi
 #
 #
 
-PROMPT='%{$fg[green]%}%n%{$reset_color%} %{$fg_bold[magenta]%}in%{$reset_color%} %{$fg[cyan]%}%2c%{$reset_color%}$(git_prompt_info)
-%{$fg[white]%}⌁%{$reset_color%} '
+DIRECTORY="%{$fg[cyan]%}%2c%{$reset_color%}"
+IN="%{$fg_bold[magenta]%}in%{$reset_color%}"
+ON="%{$fg_bold[magenta]%}on%{$reset_color%}"
+PROMPT_SYMBOL="%{$fg[white]%}⌁%{$reset_color%}"
+USER_TEMPLATE="%{$fg[green]%}%n%{$reset_color%}"
+BREAK=$'\n'
+
+PROMPT='$PROMPT_SYMBOL $USER_TEMPLATE $IN $DIRECTORY $(git_prompt_info)$BREAK$PROMPT_SYMBOL '
 
 # Right Prompt
 #
@@ -24,7 +30,7 @@ PROMPT='%{$fg[green]%}%n%{$reset_color%} %{$fg_bold[magenta]%}in%{$reset_color%}
 #
 #
 
-ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg_bold[magenta]%}on%{$reset_color%} %{$fg[yellow]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="$ON %{$fg[yellow]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%F{red}*%f"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
