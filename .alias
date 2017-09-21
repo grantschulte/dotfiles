@@ -38,3 +38,9 @@ alias shudder="$EDITOR $PROJECTS_PATH/$SHUDDER"
 #
 
 alias tunnel=ngrok_tunnel
+
+# Trash
+#
+#
+
+alias garbage-man=clean_trash

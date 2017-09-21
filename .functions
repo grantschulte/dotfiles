@@ -9,3 +9,18 @@
 ngrok_tunnel() {
 	$HOME/ngrok http $1;
 }
+
+# Clean trash
+#
+#
+
+clean_trash() {
+	TRASH=$HOME/.Trash
+
+	if [ -z "$(ls -A $TRASH)" ] ; then
+		echo "Trash is already empty."
+	else
+		rm -r $TRASH/*
+		echo "Trash emptied."
+	fi
+}
