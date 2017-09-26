@@ -24,3 +24,11 @@ clean_trash() {
 		echo "Trash emptied."
 	fi
 }
+
+lowercase() {
+	if [ -z ${1+x} ] ; then
+		echo "You must supply a directory.";
+	else
+		for i in $1 ; do mv $i `echo $i | tr [:upper:] [:lower:]`; done
+	fi
+}
