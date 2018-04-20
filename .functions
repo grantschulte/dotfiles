@@ -2,6 +2,15 @@
 #
 #
 
+# Set AWS Profile
+#
+#
+
+set-aws-profile() {
+	export AWS_PROFILE=$1
+}
+
+
 # ngrok tunnel helper
 #
 #
@@ -24,6 +33,10 @@ clean_trash() {
 		echo "Trash emptied."
 	fi
 }
+
+# Lowercase
+#
+#
 
 lowercase() {
 	if [ -z ${1+x} ] ; then
