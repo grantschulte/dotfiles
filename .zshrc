@@ -1,9 +1,18 @@
-# $PATH
+# Binaries
 #
 #
 
-export PATH=$HOME/bin:/user/bin:usr/local/bin:$PATH
+export PATH=/bin:$PATH
+export PATH=/sbin:$PATH
+export PATH=/usr/bin:$PATH
+export PATH=/usr/sbin:$PATH
+export PATH=/usr/local/bin:$PATH
+export PATH=$HOME/bin:$PATH
+export PATH=$HOME/.rbenv/bin:$PATH
+export PATH=$HOME/.rbenv/shims:$PATH
 export PATH=$HOME/Library/Python/3.6/bin:$PATH
+export PATH=$HOME/Library/Frameworks/Python.framework/Versions/3.6/bin:$PATH
+export PATH=$HOME/.global-node-modules/bin:$PATH
 
 # oh-my-zsh
 #
@@ -15,7 +24,6 @@ export ZSH=/Users/$USER/.oh-my-zsh
 #
 #
 
-export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
 # Zshell Theme
@@ -97,5 +105,3 @@ export NVM_DIR="$HOME/.nvm"
 # [[ -s $GOTHAM_SHELL ]] && source $GOTHAM_SHELL
 
 # AWS CLI
-
-export PATH=~/Library/Python/3.6/bin/:$PATH

@@ -1,3 +1,6 @@
+# Vars
+
+DOTFILES=$HOME/dotfiles
 
 # Git prompt
 
