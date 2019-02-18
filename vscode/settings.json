@@ -1,0 +1,17 @@
+{
+    "workbench.statusBar.feedback.visible": false,
+    "editor.minimap.maxColumn": 80,
+    "editor.tabSize": 2,
+    "editor.rulers": [80],
+    "editor.minimap.enabled": false,
+    "javascript.suggestionActions.enabled": false,
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 0,
+    "workbench.statusBar.visible": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.tree.indent": 15,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.settings.editor": "ui",
+    "workbench.editor.focusRecentEditorAfterClose": false
+}
