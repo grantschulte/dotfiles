@@ -62,7 +62,7 @@ export LANG=en_US.UTF-8
 
 export GIT_EDITOR=vim
 export SSH_EDITOR=vim
-export CODE_EDITOR=atom
+export CODE_EDITOR=code
 
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR=$SSH_EDITOR
