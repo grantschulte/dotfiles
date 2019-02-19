@@ -36,6 +36,11 @@
 	changed = green
 	untracked = cyan
 
+# Paging
+
+[pager]
+	branch = false
+
 # Help
 
 [help]
