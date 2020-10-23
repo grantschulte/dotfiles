@@ -2,6 +2,8 @@
 #
 #
 
+export PATH=$HOME/Library/Python/3.6/bin:$PATH
+export PATH=$HOME/Library/Frameworks/Python.framework/Versions/3.6/bin:$PATH
 export PATH=/bin:$PATH
 export PATH=/sbin:$PATH
 export PATH=/usr/bin:$PATH
@@ -10,8 +12,6 @@ export PATH=/usr/local/bin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.rbenv/bin:$PATH
 export PATH=$HOME/.rbenv/shims:$PATH
-export PATH=$HOME/Library/Python/3.6/bin:$PATH
-export PATH=$HOME/Library/Frameworks/Python.framework/Versions/3.6/bin:$PATH
 export PATH=$HOME/.global-node-modules/bin:$PATH
 
 # oh-my-zsh

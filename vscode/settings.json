@@ -1,17 +1,31 @@
 {
-    "workbench.statusBar.feedback.visible": false,
-    "editor.minimap.maxColumn": 80,
-    "editor.tabSize": 2,
-    "editor.rulers": [80],
-    "editor.minimap.enabled": false,
-    "javascript.suggestionActions.enabled": false,
-    "workbench.activityBar.visible": false,
-    "window.zoomLevel": 0,
-    "workbench.statusBar.visible": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.tree.indent": 15,
-    "workbench.editor.tabCloseButton": "off",
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.settings.editor": "ui",
-    "workbench.editor.focusRecentEditorAfterClose": false
+  "editor.minimap.maxColumn": 80,
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.rendererType": "dom",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": false,
+  "workbench.tree.indent": 15,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.settings.editor": "ui",
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "workbench.colorTheme": "Outerspace Next Frostbane",
+  "workbench.statusBar.feedback.visible": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liquid.format": true,
+  "liquid.rules": {}
 }
